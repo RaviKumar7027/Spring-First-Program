@@ -1,6 +1,4 @@
 
-
-
 package io.spings.Ravi.repository;
 
 import io.spings.Ravi.model.User;

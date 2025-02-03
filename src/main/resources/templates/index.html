@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Welcome to Thymeleaf</title>
+</head>
+<body>
+<h1 th:text="${message}">This will be replaced by dynamic content</h1>
+<p>Here is data from the database:</p>
+<ul>
+    <li th:each="data : ${dataList}" th:text="${data}"></li>
+</ul>
+</body>
+</html>
